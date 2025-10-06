@@ -19,6 +19,7 @@ from hazm.sequence_tagger import IOBTagger
 from hazm.sequence_tagger import SequenceTagger
 
 from hazm.pos_tagger import POSTagger
+from hazm.pos_tagger import SpacyPOSTagger
 
 from hazm.stemmer import Stemmer
 from hazm.word_tokenizer import WordTokenizer
@@ -81,5 +82,3 @@ from hazm.informal_normalizer import InformalLemmatizer
 from hazm.informal_normalizer import InformalNormalizer
 
 from hazm.token_splitter import TokenSplitter
-
-
